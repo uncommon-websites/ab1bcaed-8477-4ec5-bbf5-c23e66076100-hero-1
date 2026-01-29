@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company | Design Execution Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-white text-[#44403c]">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-6 py-5 md:px-10 max-w-[1600px] mx-auto">
+        <!-- Logo -->
+        <div class="flex items-center gap-1 cursor-pointer">
+            <div class="font-bold text-xl tracking-tight flex items-center text-[#44403c]">
+                <span class="mr-0.5 text-[#f43f5e]">II</span>Company
+            </div>
+        </div>
+
+        <!-- Navigation Links (Desktop) -->
+        <div class="hidden lg:flex items-center gap-8 text-[15px] font-medium text-[#44403c]">
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Design Platform</a>
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Brand Systems</a>
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Workflows</a>
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Showcase</a>
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Enterprise</a>
+            <a href="#" class="hover:text-[#f43f5e] transition-colors">Pricing</a>
+        </div>
+
+        <!-- Auth Buttons -->
+        <div class="flex items-center gap-3">
+            <a href="#" class="px-5 py-2 rounded-full border border-gray-200 text-[15px] font-medium hover:bg-gray-50 transition-colors">Log in</a>
+            <a href="#" class="px-5 py-2 rounded-full bg-[#f43f5e] text-white text-[15px] font-medium hover:bg-[#44403c] transition-colors">Book Demo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="pt-16 md:pt-24 pb-0">
+        <div class="max-w-[1600px] mx-auto px-6 md:px-10">
+            
+            <!-- Hero Text Content -->
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-end gap-10 mb-20">
+                <!-- Left: Headline & CTA -->
+                <div class="max-w-3xl">
+                    <h1 class="text-5xl md:text-[5.5rem] leading-[1.05] font-medium tracking-tight text-[#44403c] mb-10">
+                        Transform vision into tangible design solutions
+                    </h1>
+                    <a href="#" class="inline-block bg-[#f43f5e] text-white text-lg font-medium px-8 py-3.5 rounded-full hover:bg-[#44403c] transition-colors">
+                        Start Designing for free
+                    </a>
+                </div>
+
+                <!-- Right: Description -->
+                <div class="max-w-[500px] lg:mb-6">
+                    <p class="text-lg md:text-[1.15rem] leading-relaxed text-[#44403c]">
+                        Built for high-growth startup teams — Company bridges the gap between creative strategy and execution with AI-powered workflows that scale your brand systems effortlessly.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Hero Visual / UI Mockup -->
+        <div class="mx-4 md:mx-6 mt-8 rounded-t-[2.5rem] bg-gradient-to-br from-[#f43f5e] via-[#44403c] to-[#f43f5e] pt-12 px-4 md:px-16 pb-0 overflow-hidden relative min-h-[600px]">
+            
+            <!-- The "Browser Window" / UI Container -->
+            <div class="bg-white rounded-t-2xl shadow-2xl w-full h-full min-h-[800px] flex flex-col">
+                
+                <!-- UI Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+                    <div class="flex items-center gap-6">
+                        <span class="font-medium text-[#44403c]">Company Design Workspace</span>
+                        <div class="flex items-center gap-4 text-gray-400">
+                            <!-- Undo Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"/></svg>
+                            <!-- Redo Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7v6h-6"/><path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 3.7"/></svg>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <span class="text-sm font-medium text-gray-500 cursor-pointer">Collaborate</span>
+                        <button class="bg-[#f43f5e] text-white text-sm font-medium px-4 py-1.5 rounded-md hover:bg-[#44403c]">Deploy</button>
+                    </div>
+                </div>
+
+                <!-- UI Body -->
+                <div class="flex flex-col md:flex-row flex-1">
+                    
+                    <!-- Left Panel: Text Editor -->
+                    <div class="w-full md:w-1/2 p-8 md:p-12 border-r border-gray-100 relative">
+                        <!-- Sidebar Icons -->
+                        <div class="absolute right-4 top-12 flex flex-col gap-6 text-gray-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2"/><path d="M12 21v2"/><path d="M4.22 4.22l1.42 1.42"/><path d="M18.36 18.36l1.42 1.42"/><path d="M1 12h2"/><path d="M21 12h2"/><path d="M4.22 19.78l1.42-1.42"/><path d="M18.36 5.64l1.42-1.42"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                        </div>
+
+                        <div class="flex gap-4 mb-6">
+                            <!-- Primary Color Dot Indicator -->
+                            <div class="mt-1.5">
+                                <div class="w-4 h-4 rounded-full bg-gradient-to-br from-[#f43f5e] to-[#f43f5e]/80 shadow-sm"></div>
+                            </div>
+                            <!-- Active Line -->
+                            <div class="border-l-2 border-[#f43f5e] pl-4 py-1">
+                                <p class="font-medium text-[#44403c] text-lg">Company streamlines your creative iteration.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 mb-6 opacity-40">
+                            <div class="w-4"></div> <!-- Spacer -->
+                            <div class="border-l-2 border-[#44403c] pl-4 py-1">
+                                <p class="text-[#44403c] text-lg leading-relaxed">Harness AI-driven workflows to maintain perfect brand consistency across all digital assets.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 mb-6 opacity-40">
+                            <div class="w-4"></div> <!-- Spacer -->
+                            <div class="border-l-2 border-[#44403c] pl-4 py-1">
+                                <p class="text-[#44403c] text-lg leading-relaxed">Scale your output to meet the demands of a $50B creative market without adding headcount.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 opacity-40">
+                            <div class="w-4"></div> <!-- Spacer -->
+                            <div class="border-l-2 border-[#44403c] pl-4 py-1">
+                                <p class="text-[#44403c] text-lg leading-relaxed">Deploy stunning case studies and Behance-ready portfolios in minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: Image -->
+                    <div class="w-full md:w-1/2 p-8 flex items-center justify-center bg-[#44403c]/5">
+                        <div class="w-full h-full max-h-[500px] rounded-lg overflow-hidden shadow-lg relative">
+                            <img src="https://placehold.co/600x800/f43f5e/white?text=Design+Execution" alt="Company Visual" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#44403c]/40 to-transparent mix-blend-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating AI Widget -->
+            <div class="absolute bottom-8 right-8 md:bottom-12 md:right-12 bg-white rounded-full p-1.5 pr-4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] flex items-center gap-3 z-20">
+                <!-- Orb Icon -->
+                <img src="https://placehold.co/40x40/f43f5e/white?text=C" alt="Company AI" class="w-10 h-10 rounded-full">
+                
+                <!-- Button -->
+                <button class="bg-[#f43f5e] text-white text-xs font-bold px-4 py-2 rounded-full tracking-wide">DESIGN AI</button>
+                
+                <!-- Language/Region Selector -->
+                <div class="flex items-center gap-1 pl-1 cursor-pointer">
+                    <img src="https://placehold.co/20x15/44403c/white?text=GL" alt="Global" class="w-5 h-auto rounded-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-500"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
+            </div>
+
+            <!-- Powered by text -->
+            <div class="absolute bottom-4 right-1/2 translate-x-1/2 text-[10px] text-[#44403c] opacity-50 uppercase tracking-widest">
+                Powered by Company AI Workflows
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
